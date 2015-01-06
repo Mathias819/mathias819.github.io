@@ -1,10 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <title>{{ page.title }}</title>
+  <!-- link to main stylesheet -->
   <link rel="stylesheet" type="text/css" href="/css/main.css">
 </head>
 <body>
 <h1>Hello World</h1>
 <p>I'm hosted with Github Pages.</p>
+---
+layout: default
+title: Grundy
+---
+<div class="container">
+{{ content}}
+</div><!-- /.container -->
 </body>
 </html>
